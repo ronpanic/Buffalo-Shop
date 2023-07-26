@@ -1,0 +1,7 @@
+[
+  {"codigo": 1, "imagen": "images/cbum.jpg", "nombre": "Producto 1", "precio": 5850},
+  {"codigo": 2, "imagen": "images/cbum.jpg", "nombre": "Producto 2", "precio": 8200},
+  {"codigo": 3, "imagen": "images/cbum.jpg", "nombre": "Producto 3", "precio": 6100},
+  {"codigo": 4, "imagen": "images/cbum.jpg", "nombre": "Producto 4", "precio": 12500},
+  {"codigo": 5, "imagen": "images/cbum.jpg", "nombre": "Producto 5", "precio": 17350}
+]

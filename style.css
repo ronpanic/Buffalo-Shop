@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,700&display=swap');
+@font-face {
+    font-family: 'Houston';
+    src: url('fonts/Houston\ Regular\ DEMO.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Houston2';
+    src: url('fonts/Houston\ Outline\ DEMO.otf') format('opentype');
+}
+  
+
+* {
+    margin: 0;
+    color: #fff;
+}
+
+a {
+    text-decoration: none; 
+}
+
+nav h1 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #2d86c9;
+}
+
+li img {
+    filter: invert(1);
+    margin-right: 2rem;
+    width: 10%;
+}
+
+li img:hover {
+    color: #2d86c9;
+}
+  
+
+
+
+.linea {
+    height: 1px;
+    width: 90%;
+    background-color: rgb(160, 160, 160, 0.5);
+    margin: 1.5rem ;
+    margin-left: -1rem;
+  }
+  
+  nav button {
+    justify-content: center;
+    color: #2d86c9;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: -0.5rem;
+    background-color: transparent;
+    border: 1px solid rgb(160, 160, 160, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    width: 13rem;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    border: 1px solid rgb(45, 134, 201);
+  }
+  
+  nav button img {
+    filter: invert(1);
+    margin-right: 0.5rem;
+    width: 20px; 
+    height: 20px; 
+  }
+
+  
+  nav button a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  nav button a span {
+    margin-left: 0.5rem;
+  }
+  
+
+
+body {
+    background-color: #202425;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: #262b2c;
+    width: 14%;
+    min-height: 961px;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container button a {
+    color: #2d86c9;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 86%;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    margin-left: 18rem;
+}
+
+header h1 {
+    color: #fff;
+}
+
+.linea2 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(160, 160, 160, 0.5);
+    margin: 1.5rem ;
+    margin-left: -0.1rem;
+  }
+
+  #product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .plan1-container {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10rem;
+    cursor: pointer;
+  }
+  
+  .plan1-container:hover {
+    background-color: #262b2c;
+  }
+  
+  .plan1-container h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  
+  .plan1-container p {
+    color: #a6a6a6;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  
+  .info-container {
+    display: flex;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-name {
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+    margin-left: 5rem;
+  }
+  
+  .product-price {
+    color: #a6a6a6;
+  }
+  
+  .add-to-cart-button {
+    justify-content: center;
+    color: #2d86c9;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 9.5rem;
+    background-color: transparent;
+    border: 1px solid rgb(160, 160, 160, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    width: 13rem;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button:hover {
+    border: 1px solid rgb(45, 134, 201);
+  }
+  
+  .add-to-cart-button img {
+    filter: invert(1);
+    margin-right: 0.5rem;
+    width: 20px;
+    height: 20px;
+  }
+  
+
+header button {
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  background: none;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+header button:hover {
+  border: 1px solid #2d86c9;
+}
+
+
+.toastify-message {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
